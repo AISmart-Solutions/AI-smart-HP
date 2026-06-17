@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Smart Solutions | AI活用・DX推進・システム開発のパートナー</title>
+<meta name="description" content="AI Smart SolutionsはAI活用、DX推進、システム開発、チャットボット開発、データ分析サービスを提供し、企業の成長を支援します。">
+<meta name="keywords" content="AI開発, DX推進, AIコンサルティング, AIチャットボット, データ分析, AIソリューション, 業務効率化, システム開発">
+<meta property="og:title" content="AI Smart Solutions | AIをもっとスマートに">
+<meta property="og:description" content="AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img class="brand-logo" src="assets/logo.png" alt="AI Smart Solutions">
+    </a>
+    <nav class="nav-links">
+      <a href="#service">ソリューション</a>
+      <a href="#works">開発アプリ</a>
+      <a href="#company">会社概要</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+    <button class="nav-toggle btn btn-ghost" aria-label="メニュー" onclick="document.querySelector('.nav-links').classList.toggle('open')">≡</button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero section-soft" data-hero="logo" data-hubtone="blue" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-glow" style="width:420px;height:420px;background:var(--accent);opacity:.18;top:-80px;right:6%;"></div>
+  <div class="hero-glow" style="width:340px;height:340px;background:var(--cyan);opacity:.14;bottom:-60px;left:2%;"></div>
+  <div class="wrap">
+
+    <!-- Variant A: centered -->
+    <div class="hero-variant hero-a">
+      <div class="eyebrow" style="justify-content:center;">AI · DX · System Development</div>
+      <h1 class="hero-title" style="margin-top:22px;">ほんとうのところ、<br><span class="hl">AIをもっとスマートに</span>使いたい<br>と思っていませんか？</h1>
+      <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。企画から開発、運用までワンストップで伴走します。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#service">サービスを見る</a>
+      </div>
+      <div class="pill-row">
+        <span class="pill">AIシステム開発</span>
+        <span class="pill">DX推進</span>
+        <span class="pill">データ分析</span>
+        <span class="pill">チャットボット</span>
+      </div>
+    </div>
+
+    <!-- Variant B: split + abstract AI visual -->
+    <div class="hero-variant hero-b">
+      <div class="hero-split">
+        <div>
+          <div class="eyebrow">AI · DX · System Development</div>
+          <h1 class="hero-title" style="margin-top:22px;">ほんとうのところ、<br><span class="hl">AIをもっとスマートに</span><br>使いたいと思っていませんか？</h1>
+          <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+            <a class="btn btn-ghost" href="#service">サービスを見る</a>
+          </div>
+        </div>
+        <div class="ai-orb">
+          <div class="glow-b"></div>
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="ring r3"></div>
+          <div class="core"></div>
+          <div class="node n1"></div>
+          <div class="node n2"></div>
+          <div class="node n3"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant C: product mock -->
+    <div class="hero-variant hero-c">
+      <div class="hero-split">
+        <div>
+          <div class="eyebrow">AI · DX · System Development</div>
+          <h1 class="hero-title" style="margin-top:22px;font-size:clamp(28px,3.6vw,46px);">データを、<br><span class="hl">意思決定の力</span>に変える。</h1>
+          <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。可視化から予測まで、現場で使える形で。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+            <a class="btn btn-ghost" href="#service">サービスを見る</a>
+          </div>
+        </div>
+        <div class="mock-window">
+          <div class="mock-bar"><i></i><i></i><i></i><span class="url">app.aismartsolu.com / dashboard</span></div>
+          <div class="mock-body">
+            <div class="mock-kpis">
+              <div class="mock-kpi up"><small>売上予測</small><b>+18.4%</b></div>
+              <div class="mock-kpi"><small>稼働率</small><b>92%</b></div>
+              <div class="mock-kpi up"><small>削減工数</small><b>340h</b></div>
+            </div>
+            <div class="mock-chart">
+              <span style="height:42%"></span><span style="height:58%"></span><span style="height:48%"></span>
+              <span style="height:70%"></span><span style="height:62%"></span><span style="height:84%"></span>
+              <span style="height:76%"></span><span style="height:96%"></span>
+            </div>
+            <div class="mock-row"><span class="mock-dot"></span><span class="mock-line s"></span><span class="mock-line"></span></div>
+            <div class="mock-row"><span class="mock-dot"></span><span class="mock-line s"></span><span class="mock-line"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant D: stats / proof -->
+    <div class="hero-variant hero-d">
+      <div class="eyebrow" style="justify-content:center;">AI · DX · System Development</div>
+      <h1 class="hero-title" style="margin-top:22px;">AIをもっとスマートに。<br><span class="hl">成果でこたえる</span>パートナー。</h1>
+      <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#service">サービスを見る</a>
+      </div>
+      <div class="stat-strip">
+        <div class="stat-cell"><b>100<span style="font-size:.5em">+</span></b><small>AI・DX 支援実績</small></div>
+        <div class="stat-cell"><b>4</b><small>事業領域でワンストップ</small></div>
+        <div class="stat-cell"><b>340<span style="font-size:.5em">h</span></b><small>平均の業務削減工数</small></div>
+        <div class="stat-cell"><b>0<span style="font-size:.5em">→1</span></b><small>「何から」からの伴走</small></div>
+      </div>
+    </div>
+
+    <!-- Variant E: AI VTuber streaming booth -->
+    <div class="hero-variant hero-e">
+      <div class="hero-e-stack">
+        <div class="hero-e-copy">
+          <div class="eyebrow">AI VTuber · DX · System</div>
+          <h1 class="hero-title" style="margin-top:22px;font-size:clamp(28px,4vw,50px);">AIが、<span class="hl">話して伝える</span>。<br>もっとスマートな<br>顧客体験へ。</h1>
+          <p class="hero-sub">AIチューバー・チャットボットから業務システムまで。AI Smart Solutionsが企画・開発・運用までワンストップで伴走します。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+            <a class="btn btn-ghost" href="#service">サービスを見る</a>
+          </div>
+        </div>
+        <div class="studio">
+          <div class="backglow"></div>
+          <div class="floor"></div>
+          <div class="halo"></div>
+          <span class="live">● LIVE</span>
+          <span class="views">12,480 watching</span>
+          <span class="bubble">AIをもっと<br>スマートに！</span>
+          <div class="avatar">
+            <image-slot id="vtuber-avatar" shape="rounded" radius="18" fit="contain" position="50% 100%" placeholder="AIチューバーの立ち絵をドロップ（透過PNG推奨）"></image-slot>
+          </div>
+          <div class="wave">
+            <span style="animation-delay:0s"></span>
+            <span style="animation-delay:.12s"></span>
+            <span style="animation-delay:.24s"></span>
+            <span style="animation-delay:.36s"></span>
+            <span style="animation-delay:.18s"></span>
+            <span style="animation-delay:.30s"></span>
+            <span style="animation-delay:.06s"></span>
+            <span style="animation-delay:.20s"></span>
+            <span style="animation-delay:.40s"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant F: full-bleed light streaks -->
+    <div class="hero-variant hero-f">
+      <div class="hero-f-bg"></div>
+      <div class="hero-f-inner">
+        <div class="eyebrow">AI · DX · System Development</div>
+        <h1 class="hero-title" style="margin-top:22px;">ひとつの光に、<br><span class="hl">すべての知能</span>を集めて。</h1>
+        <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。企画から開発、運用までワンストップで伴走します。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+          <a class="btn btn-ghost" href="#service">サービスを見る</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant G: AI hub on digital background -->
+    <div class="hero-variant hero-g">
+      <div class="hero-g-bg">
+        <svg class="ai-hub-svg" viewBox="0 0 490 520" xmlns="http://www.w3.org/2000/svg">
+            <!-- links -->
+            <g class="link">
+              <line x1="245" y1="260" x2="245" y2="75"></line>
+              <line x1="245" y1="260" x2="376" y2="129"></line>
+              <line x1="245" y1="260" x2="430" y2="260"></line>
+              <line x1="245" y1="260" x2="376" y2="391"></line>
+              <line x1="245" y1="260" x2="245" y2="445"></line>
+              <line x1="245" y1="260" x2="114" y2="391"></line>
+              <line x1="245" y1="260" x2="60" y2="260"></line>
+              <line x1="245" y1="260" x2="114" y2="129"></line>
+            </g>
+            <g class="dot">
+              <circle cx="245" cy="158" r="3"></circle>
+              <circle cx="317" cy="201" r="3"></circle>
+              <circle cx="347" cy="260" r="3"></circle>
+              <circle cx="317" cy="319" r="3"></circle>
+              <circle cx="245" cy="362" r="3"></circle>
+              <circle cx="173" cy="319" r="3"></circle>
+              <circle cx="143" cy="260" r="3"></circle>
+              <circle cx="173" cy="201" r="3"></circle>
+            </g>
+            <!-- satellite nodes -->
+            <!-- database (top) -->
+            <g transform="translate(245,75)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><ellipse cx="0" cy="-9" rx="11" ry="4"></ellipse><path d="M-11,-9 v18 a11,4 0 0 0 22,0 v-18"></path><path d="M-11,0 a11,4 0 0 0 22,0"></path></g></g>
+            <!-- gear (top-right) -->
+            <g transform="translate(376,129)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><circle cx="0" cy="0" r="5"></circle><path d="M0,-12 V-8 M0,8 V12 M-12,0 H-8 M8,0 H12 M-8.5,-8.5 l2.8,2.8 M5.7,5.7 l2.8,2.8 M8.5,-8.5 l-2.8,2.8 M-5.7,5.7 l-2.8,2.8"></path></g></g>
+            <!-- lock (right) -->
+            <g transform="translate(430,260)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><rect x="-9" y="-1" width="18" height="14" rx="2.5"></rect><path d="M-5,-1 v-4 a5,5 0 0 1 10,0 v4"></path></g></g>
+            <!-- cart (bottom-right) -->
+            <g transform="translate(376,391)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><path d="M-12,-9 h4 l3,14 h12 l3,-10 h-16"></path><circle cx="-3" cy="11" r="2"></circle><circle cx="9" cy="11" r="2"></circle></g></g>
+            <!-- magnifier (bottom) -->
+            <g transform="translate(245,445)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><circle cx="-3" cy="-3" r="8"></circle><line x1="3" y1="3" x2="11" y2="11"></line></g></g>
+            <!-- chart (bottom-left) -->
+            <g transform="translate(114,391)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><line x1="-9" y1="11" x2="-9" y2="2"></line><line x1="0" y1="11" x2="0" y2="-8"></line><line x1="9" y1="11" x2="9" y2="-3"></line></g></g>
+            <!-- wifi (left) -->
+            <g transform="translate(60,260)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><path d="M-12,-4 a17,17 0 0 1 24,0"></path><path d="M-7,2 a10,10 0 0 1 14,0"></path></g><circle class="ico-f" cx="60" cy="0" r="0"></circle><circle class="dot" cx="0" cy="9" r="2.4"></circle></g>
+            <!-- smartphone (top-left) -->
+            <g transform="translate(114,129)"><circle class="node-c" r="32"></circle>
+              <g class="ico"><rect x="-8" y="-13" width="16" height="26" rx="3"></rect><line x1="-3" y1="9" x2="3" y2="9"></line></g></g>
+            <!-- central core -->
+            <g class="core">
+              <circle class="ring" cx="245" cy="260" r="74"></circle>
+              <circle class="node-c" cx="245" cy="260" r="62" style="stroke-width:3"></circle>
+              <text class="ai-text" x="245" y="273" text-anchor="middle">AI</text>
+            </g>
+          </svg>
+        </div>
+        <div class="hero-g-inner">
+          <div class="eyebrow">AI · DX · System Development</div>
+          <h1 class="hero-title" style="margin-top:22px;">人とAIが、<span class="hl">つながる</span>その先へ。</h1>
+          <p class="hero-sub">AI活用・DX推進・業務効率化のお悩みを、AI Smart Solutionsが解決します。企画から開発、運用までワンストップで伴走します。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">無料相談はこちら <span class="arr">→</span></a>
+            <a class="btn btn-ghost" href="#service">サービスを見る</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant Logo: full-bleed hero video -->
+    <div class="hero-variant hero-logo">
+      <div class="hero-logo-bg">
+        <video id="heroVideo" src="assets/hero-video.mp4" autoplay muted loop playsinline poster="assets/hero-robot.jpeg"></video>
+        <div class="hero-vignette"></div>
+        <button class="hero-sound" id="heroSound" aria-label="音声オン/オフ" onclick="toggleHeroSound()">
+          <svg class="ic-muted" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><line x1="16" y1="9" x2="22" y2="15"/><line x1="22" y1="9" x2="16" y2="15"/></svg>
+          <svg class="ic-on" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 6a8 8 0 0 1 0 12"/></svg>
+          <span class="hero-sound-txt">音声をオン</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================= PROBLEM ======================= -->
+<section class="section has-bg" id="problem">
+  <div class="prob-bg"></div>
+  <div class="wrap">
+    <div class="prob-grid">
+      <div class="reveal">
+        <div class="eyebrow">Issues</div>
+        <h2 style="font-size:clamp(26px,3.2vw,38px);margin:18px 0 14px;">AIをもっとスマートに<br>使いたい、と<br>思っていませんか？</h2>
+        <div class="prob-list" style="margin-top:26px;">
+          <div class="prob-item"><span class="q">Q</span><p>人手不足で、定型業務に追われている</p></div>
+          <div class="prob-item"><span class="q">Q</span><p>AI・DXを始めたいが、何から手をつければいいかわからない</p></div>
+          <div class="prob-item"><span class="q">Q</span><p>導入したいが、費用対効果やセキュリティが読めない</p></div>
+        </div>
+      </div>
+      <div class="prob-solve reveal">
+        <div class="eyebrow">Solution</div>
+        <h3>それ、ぜんぶ<br>AI Smart Solutionsへ<br>お任せください。</h3>
+        <p>最新のAI技術と豊富な開発経験を活かし、お客様の課題解決とビジネス成長をサポートします。「何から始めればよいかわからない」段階からご一緒します。</p>
+        <a class="btn btn-light" href="#contact" style="margin-top:28px;">AIについて相談してみる <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= SERVICES ======================= -->
+<section class="section section-soft" id="service">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Solution</div>
+      <h2>課題から逆算した、<br>3つのAIソリューション</h2>
+      <p class="lead">お客様の課題やご要望に応じて、最適なソフトウェア・ハードウェア・分析基盤をご提案します。</p>
+    </div>
+
+    <div class="svc-list">
+      <!-- 01 -->
+      <article class="svc reveal">
+        <div class="svc-visual">
+          <img class="svc-img" src="assets/svc-01.png" alt="AIチップと回路・ハードウェア設計開発のイメージ">
+        </div>
+        <div class="svc-body">
+          <span class="svc-num">01</span>
+          <h3>課題に合わせた、AIシステムの設計・開発支援</h3>
+          <p class="desc">人手不足の定型業務を自動化、「何から始めるか」の整理から費用対効果・セキュリティを考慮した設計まで。御社に最適なソフト／ハードを、御社用にカスタマイズします。</p>
+        </div>
+      </article>
+      <!-- 02 -->
+      <article class="svc reveal">
+        <div class="svc-visual">
+          <img class="svc-img" src="assets/svc-02.png" alt="AIチャットボット・アプリケーションのイメージ">
+        </div>
+        <div class="svc-body">
+          <span class="svc-num">02</span>
+          <h3>話せるAIで、マーケティングを加速</h3>
+          <p class="desc">自社開発の「AITuber Live」をベースに、接客・問い合わせ対応・リード獲得を自動化するAIチャットボットを構築。24時間“話せる接点”で見込み客との関係づくりを支援します。</p>
+        </div>
+      </article>
+      <!-- 03 -->
+      <article class="svc reveal">
+        <div class="svc-visual">
+          <img class="svc-img" src="assets/svc-03.png" alt="AIデータ分析ダッシュボードのイメージ">
+        </div>
+        <div class="svc-body">
+          <span class="svc-num">03</span>
+          <h3>調査業務を、AIが代行</h3>
+          <p class="desc">人手不足でリサーチに手が回らない——市場調査・競合分析・情報収集をAIが代行し、必要な情報を整理してレポート化。調べる時間を、考える時間に変えます。</p>
+        </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= APPS / WORKS ======================= -->
+<section class="section" id="works">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Products</div>
+      <h2>自社開発プロダクト</h2>
+      <p class="lead">AIを活用して、私たちが企画・開発したプロダクトの一部をご紹介します。</p>
+    </div>
+    <div class="apps">
+      <!-- App 01: AITuber Live -->
+      <div class="app-card reveal">
+        <div class="app-frame">
+          <span class="app-badge soon">COMING SOON</span>
+          <image-slot id="app-vtuber" shape="rect" fit="cover" placeholder="AITuber Liveのアプリ画像をドロップ"></image-slot>
+        </div>
+        <div class="app-body">
+          <span class="app-num">APP 01</span>
+          <h3>AITuber Live</h3>
+          <p>AIが配信・対話するバーチャルタレント。リアルタイム音声対話とアバター表現で、新しい顧客接点をつくります。</p>
+        </div>
+      </div>
+
+      <!-- App 02: Caiu -->
+      <a class="app-card reveal" href="apps/calorie.html">
+        <div class="app-frame icon">
+          <img src="assets/caiu-icon.png" alt="Caiu - AIカロリートラッカー アイコン">
+        </div>
+        <div class="app-body">
+          <span class="app-num">APP 02</span>
+          <h3>Caiu - AIカロリートラッカー</h3>
+          <p>写真を撮るだけでAIが食事のカロリーを推定。カロリー計算や体重管理に役立ち、ダイエットに最適なアプリです。</p>
+          <span class="app-link">詳しく見る <span class="arr">→</span></span>
+        </div>
+      </a>
+
+      <!-- App 03: 開発中 -->
+      <div class="app-card reveal">
+        <div class="app-frame">
+          <span class="app-badge soon">COMING SOON</span>
+          <image-slot id="app-soon" shape="rect" fit="cover" placeholder="新しいアプリの画像をドロップ"></image-slot>
+        </div>
+        <div class="app-body">
+          <span class="app-num">APP 03</span>
+          <h3>開発中</h3>
+          <p>次なるAIプロダクトを開発中です。詳細は近日公開予定。お楽しみにお待ちください。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= COMPANY ======================= -->
+<section class="section section-soft" id="company">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Company</div>
+      <h2>会社概要</h2>
+    </div>
+    <div class="company-grid">
+      <div class="reveal">
+        <table class="company-table">
+          <tbody>
+            <tr><th>会社名</th><td>AI Smart Solutions（エーアイスマートソリューションズ）</td></tr>
+            <tr><th>事業内容</th><td>
+              <ul class="company-biz">
+                <li>AIを利用したソフトウェア・ハードウェアの設計開発</li>
+                <li>チャットボット・アプリケーション開発</li>
+                <li>AIデータ分析サービス</li>
+                <li>DXコンサルティング</li>
+              </ul>
+            </td></tr>
+            <tr><th>所在地</th><td>〒101-0032<br>東京都千代田区岩本町3丁目7-15 VORT秋葉原7-201</td></tr>
+            <tr><th>代表者</th><td>代表社員　出川 貴史</td></tr>
+            <tr><th>連絡先</th><td>info@aismartsolu.com</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="map-ph reveal">
+        <iframe
+          class="map-embed"
+          src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E5%B2%A9%E6%9C%AC%E7%94%BA3-7-15%20VORT%E7%A7%8B%E8%91%89%E5%8E%9F&z=16&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="AI Smart Solutions 所在地マップ"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTACT ======================= -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="eyebrow">Contact</div>
+        <h2>まずは、お気軽に<br>ご相談ください。</h2>
+        <p class="lead">AI活用やDX推進でお困りの際は、お気軽にご相談ください。「何から始めればよいかわからない」という段階からサポートいたします。</p>
+        <div class="contact-points">
+          <div class="contact-point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg></span>info@aismartsolu.com</div>
+          <div class="contact-point"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>東京都千代田区岩本町3-7-15 VORT秋葉原7-201</div>
+          <div class="contact-point"><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>受付時間　平日 9:00 - 18:00</div>
+        </div>
+      </div>
+
+      <form class="form reveal" id="contactForm" onsubmit="return submitForm(event)">
+        <div class="form-fields" id="formFields">
+          <div class="form-row two">
+            <div><label>会社名<span class="req">*</span></label><input name="company" required placeholder="株式会社〇〇"></div>
+            <div><label>お名前<span class="req">*</span></label><input name="name" required placeholder="山田 太郎"></div>
+          </div>
+          <div class="form-row two">
+            <div><label>メールアドレス<span class="req">*</span></label><input name="email" type="email" required placeholder="you@example.com"></div>
+            <div><label>電話番号</label><input name="tel" type="tel" placeholder="03-0000-0000"></div>
+          </div>
+          <div class="form-row">
+            <label>ご相談内容<span class="req">*</span></label>
+            <textarea name="message" required placeholder="現状の課題やご相談したい内容をご記入ください。"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">この内容で送信する <span class="arr">→</span></button>
+          <p class="privacy">送信により<a href="#" style="color:var(--cyan)">プライバシーポリシー</a>に同意したものとみなされます。</p>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <div class="check"><svg viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></div>
+          <h3>送信ありがとうございました</h3>
+          <p>担当者より2営業日以内にご連絡いたします。</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo-chip"><img src="assets/logo.png" alt="AI Smart Solutions"></div>
+        <p>AIをもっとスマートに。AI活用・DX推進・システム開発で、企業の成長を伴走支援します。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Service</h4>
+        <a href="#service">AIシステム開発</a>
+        <a href="#service">チャットボット・アプリ開発</a>
+        <a href="#service">データ分析サービス</a>
+        <a href="#service">DXコンサルティング</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#company">会社概要</a>
+          <a href="#contact">お問い合わせ</a>
+        <a href="#">プライバシーポリシー</a>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span>© AI Smart Solutions All Rights Reserved.</span>
+      <div class="links">
+        <a href="#">プライバシーポリシー</a>
+        <a href="#">特定商取引法に基づく表記</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================= SCRIPTS ======================= -->
+<script>
+  // hero video sound toggle
+  function toggleHeroSound(){
+    const v = document.getElementById('heroVideo');
+    const btn = document.getElementById('heroSound');
+    if(!v) return;
+    v.muted = !v.muted;
+    if(!v.muted){ v.volume = 0.6; v.play().catch(()=>{}); }
+    btn.classList.toggle('on', !v.muted);
+    btn.querySelector('.hero-sound-txt').textContent = v.muted ? '音声をオン' : '音声をオフ';
+  }
+  // contact form (demo)
+  function submitForm(e){
+    e.preventDefault();
+    document.getElementById('formFields').style.display = 'none';
+    document.getElementById('formSuccess').classList.add('show');
+    return false;
+  }
+  // reveal on scroll
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target);} });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+<script src="image-slot.js"></script>
+
+<template id="__bundler_thumbnail">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="20" fill="#1b3a6b"/>
+  <text x="50" y="58" font-family="sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">AI</text>
+</svg>
+</template>
+
+</body>
+</html>
