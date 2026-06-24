@@ -895,7 +895,7 @@ a { color: inherit; text-decoration: none; }
 .contact .eyebrow { color: var(--cyan); }
 .contact .eyebrow::before { background: var(--cyan); }
 .contact h2 { font-size: clamp(28px, 3.4vw, 40px); margin: 20px 0; }
-.contact .lead { color: rgba(255,255,255,0.72); font-size: 16px; max-width: 420px; }
+.contact .lead { color: rgba(255,255,255,0.72); font-size: 16px; max-width: 480px; }
 .contact-points { margin-top: 36px; display: grid; gap: 16px; }
 .contact-point { display: flex; gap: 14px; align-items: center; color: rgba(255,255,255,0.86); font-size: 15px; }
 .contact-point .ic { width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,0.08); display: grid; place-items: center; flex: 0 0 auto; }
