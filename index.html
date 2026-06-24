@@ -460,6 +460,9 @@
             <label>ご相談内容<span class="req">*</span></label>
             <textarea name="message" required placeholder="現状の課題やご相談したい内容をご記入ください。"></textarea>
           </div>
+          <input type="hidden" name="_subject" value="【AI Smart HP】お問い合わせがありました">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
           <button class="btn btn-primary" type="submit">この内容で送信する <span class="arr">→</span></button>
           <p class="privacy">送信により<a href="#" style="color:var(--cyan)">プライバシーポリシー</a>に同意したものとみなされます。</p>
         </div>
@@ -519,11 +522,29 @@
     btn.classList.toggle('on', !v.muted);
     btn.querySelector('.hero-sound-txt').textContent = v.muted ? '音声をオン' : '音声をオフ';
   }
-  // contact form (demo)
+  // contact form — send via formsubmit.co (delivers to info@aismartsolu.com)
   function submitForm(e){
     e.preventDefault();
-    document.getElementById('formFields').style.display = 'none';
-    document.getElementById('formSuccess').classList.add('show');
+    var form = e.target;
+    var btn = form.querySelector('button[type=submit]');
+    var orig = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '送信中…';
+    fetch('https://formsubmit.co/ajax/info@aismartsolu.com', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    })
+    .then(function(r){ if(!r.ok) throw new Error('http'); return r.json(); })
+    .then(function(){
+      document.getElementById('formFields').style.display = 'none';
+      document.getElementById('formSuccess').classList.add('show');
+    })
+    .catch(function(){
+      btn.disabled = false;
+      btn.innerHTML = orig;
+      alert('送信に失敗しました。お手数ですが info@aismartsolu.com まで直接ご連絡ください。');
+    });
     return false;
   }
   // reveal on scroll
